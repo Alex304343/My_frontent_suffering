@@ -70,3 +70,30 @@
 .title-text-right{
     align-self: flex-end;
 }
+
+.cover__description{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    word-spacing: 0.9em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.cover-image{
+    filter: brightness(0.6);
+}
+
+.cover__description-text{
+    margin: auto auto auto 50px;
+}
+.cover__description-button{
+    text-decoration: none;
+    word-spacing: normal;
+    width: 193px;
+    height: 28px;
+    border: 1px solid #FFFFFF;
+}
+
