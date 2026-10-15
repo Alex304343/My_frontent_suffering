@@ -175,3 +175,45 @@
     display: inline-block;
     margin: 20px auto auto 40px;
 }
+
+.about__container{
+    width: 1052px;
+    height: 595px;
+    display: grid;
+    margin: 120px auto auto auto;
+    grid-template-columns: auto 1fr;
+    column-gap: 80px;
+}
+
+.about__logo-img{
+    width: 240px;
+    height: 240px;
+}
+
+.about__title{
+    margin: 95px 0px 0px;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about__description{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000; 
+    margin: auto 0px 0px; 
+}
+
+.about__description{
+    margin-top: auto;
+}
+
+.about__description + .about__description {
+    margin-top: 20px;      /* расстояние между абзацами */
+}
